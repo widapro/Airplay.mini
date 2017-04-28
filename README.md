@@ -1,7 +1,7 @@
 # Airplay.mini
 Airplay mini player at a5-v11 device for iOS and Mac devices
 
-Download Compiled firmware: [download](Airplay.mini-a5-v11.bin "compiled friemware for a5-v11")
+Download Compiled firmware: [download](Airplay.mini-a5-v11.bin?raw=true "compiled friemware for a5-v11")
 
 ## Device
 You will need NoName Mini 3g-4g wifi router which called <b>a5-v11</b> [Can buy here](https://ru.aliexpress.com/item/Factory-price-Mini-3G-4G-WiFi-Wlan-Hotspot-AP-Client-150Mbps-RJ45-USB-Wireless-Router-AU4/32708017984.html)
