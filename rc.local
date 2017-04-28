@@ -1,0 +1,18 @@
+### save in "/etc/rc.local"
+### first boot version
+
+
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+#blink red at start
+echo "1" > /sys/class/leds/a5-v11\:red\:power/brightness
+
+#configure wlan
+/etc/startup_scripts/wlan_up.sh
+#enable php in uhhtpd
+/etc/startup_scripts/enable_php.sh
+#install shairport
+/etc/startup_scripts/shairport.sh
+
+exit 0
