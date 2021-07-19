@@ -16,7 +16,7 @@ exec("ifdown wwan && ifup wwan");
 ?>
 
 <html><title>Airplay.mini</title><body>
-<h1>Wireles configuration changed.</h1>
+<h1>Wireless configuration changed</h1>
 <button onclick="goBack()">Go Back</button>
 
 <script>
