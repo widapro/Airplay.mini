@@ -39,7 +39,7 @@ div {padding:3px;}
 </style>
 </head>
 <body>
-<h1>Wireles network preferens:</h1>
+<h1>Wireless network preferences:</h1>
 <?php
 $WIFI_CONNECT=exec("/sbin/ifconfig wlan0 | grep inet\ addr | wc -l");
 $WIFI_IP=exec("ifconfig | grep -A 1 wlan0 | tail -n 1 | cut -d: -f2 | awk '{ print $1}'");
